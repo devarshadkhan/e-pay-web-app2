@@ -1,0 +1,63 @@
+.recharge_Wrapper{
+  padding: 3rem 0;
+}
+.rhrge_wrp {
+}
+.rhrge_wrp .listing_Tabs {
+  text-align: center !important;
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+.rhrge_wrp .listing_Tabs .tab_name {
+  cursor: pointer;
+}
+.rhrge_wrp .listing_Tabs .tab_name {
+  font-weight: bold;
+}
+
+.activeTab {
+  color: var(--blue) !important;
+  font-weight: bold;
+  cursor: pointer;
+  border-bottom: 2px solid var(--blue);
+}
+
+.Mobile_sec {
+  margin-top: 2rem;
+}
+.sec_plx {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.rhrge_wrp .Mobile_sec p {
+}
+ .Mobile_sec input {
+  border-style: dotted;
+  padding: 8px 20px;
+  width: 134%;
+  border-radius: 10px;
+}
+.Mobile_sec input::placeholder {
+  /* font-size: 12px; */
+  color: rgb(106, 106, 106);
+}
+ .Mobile_sec button {
+  background-color: var(--blue);
+  color: #fff;
+  border: none;
+  padding: 16px 30px;
+  border-radius: 10px;
+  height: 57px;
+  transition: 0.5s;
+  border: 2px solid var(--blue);
+}
+ .Mobile_sec button:hover {
+  background-color: #fff;
+  color: var(--blue);
+  border: 2px solid var(--blue);
+  transition: 0.5s;
+  box-shadow: 8px 8px 20px var(--blue);
+}

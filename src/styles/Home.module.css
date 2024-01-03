@@ -1,0 +1,26 @@
+
+.recharge_Wrapper{
+    padding: 3rem 0;
+}
+
+.offer_sec{
+    padding: 2rem 0;
+}
+
+.offer_sec h1{text-align: center;}
+.offer_sec p{text-align: center;}
+.offer_sec h1 span{display: block;color: var(--blue);}
+
+.offer_sec img{border-radius: 10px;}
+
+.offer_sec .offer_img{
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 8px 8px 30px #e3e5e6;
+}
+.offer_sec .offer_img:hover{
+    background-color: var(--blue);
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}

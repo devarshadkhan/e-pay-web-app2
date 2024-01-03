@@ -1,0 +1,38 @@
+.main_wrapper{
+    width: 100%;
+    padding: 0 0 3rem;
+    position: relative;
+}
+.main_wrapper .BG_img{
+    text-align: end;
+    position: relative;
+}
+.main_wrapper .BG_img img{
+    border-radius: 20px;
+    height: 500px;
+}
+
+.main_wrapper .semPayment{
+    background-color: #fff;
+    position: absolute;
+    bottom: 62px;
+    left: 0;
+    box-shadow: 0 0 20px 0 #ccc;
+    padding: 20px 50px 10px;
+    /* width: 496px; */
+    max-width: 100%;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.main_wrapper .semPayment h1{
+    color: var(--blue);
+}
+.main_wrapper .semPayment h1 span{
+    display: block;
+    color: var(--darkBlue);
+}
+.main_wrapper .semPayment p{
+    color: #000;
+    font-weight: 500;
+}

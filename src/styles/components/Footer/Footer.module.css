@@ -1,0 +1,20 @@
+.footer{}
+.footer .container{
+    background: #2d3144;
+    border-radius: 10px 10px 0 0;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    padding: 10px 20px;
+    margin-top: 2rem;
+}
+
+.footer .linksItem{}
+.footer .linksItem ul{display: flex;gap: 20px;margin: 0;padding: 0;}
+.footer .linksItem ul li{}
+.footer .linksItem ul li a{
+    color: #fff;
+    font-size: 12px;
+}
+.footer .copyRight{}
+.footer .copyRight p{color: #fff;font-size: 13px;margin: 0;text-align: end;}

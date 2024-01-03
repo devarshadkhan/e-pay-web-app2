@@ -1,0 +1,15 @@
+export const API = {
+  register_user: "register",
+  send_email_otp: "sendEmailOtp",
+  verify_email_otp: "verifyEmailOtp",
+  send_phone_otp: "sendPhoneOtp",
+  verify_phone_otp: "verifyPhoneOtp",
+  set_Password: "password",
+  aadhar_KYC: "aadhaarKyc",
+  verify_aadhar_OTP: "verifyAadhaarOtp",
+  user_login: "loginPassword",
+  login_phone_OTP: "loginPhoneOtp",
+  verify_login_phone_OTP: "verifyLoginPhoneOtp",
+  login_with_email: "loginEmailOtp",
+  verify_login_with_email: "verifyLoginEmailOtp",
+};
